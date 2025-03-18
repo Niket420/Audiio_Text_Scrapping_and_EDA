@@ -25,3 +25,4 @@ This project automates web scraping using **Selenium** (instead of BeautifulSoup
 ### 1. Install Dependencies  
 ```bash
 pip install selenium pandas
+python3 webscrapping.py
