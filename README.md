@@ -9,14 +9,12 @@
 
 
 
-⸻
 
 ## Overview
 
 This project focuses on web scraping dynamic content using Selenium.
 It extracts audio files and their corresponding text from a scrollable webpage where static scraping tools are not sufficient.
 
-⸻
 
 ## Workflow
 
@@ -28,7 +26,6 @@ It extracts audio files and their corresponding text from a scrollable webpage w
 	•	locate audio source
 	•	extract corresponding text
 
-⸻
 
 ### 2. Data Preparation
 	•	Assigned meaningful filenames to audio files
@@ -37,7 +34,6 @@ It extracts audio files and their corresponding text from a scrollable webpage w
 	•	audio filename
 	•	extracted text
 
-⸻
 
 ## Project Structure
 
@@ -49,7 +45,6 @@ It extracts audio files and their corresponding text from a scrollable webpage w
 └── README.md
 
 
-⸻
 
 Setup
 
@@ -58,14 +53,14 @@ Install Dependencies
 pip install selenium pandas
 
 
-⸻
+
 
 Run Script
 
 python3 webscrapping.py
 
 
-⸻
+
 
 Output
 	•	Audio files saved locally
@@ -74,14 +69,14 @@ Output
 	•	audio file name
 	•	corresponding text
 
-⸻
+
 
 ## Key Notes
 	•	Selenium is used due to dynamic content loading
 	•	Requires ChromeDriver compatible with your browser version
 	•	Ensure proper waiting strategies to avoid missing elements
 
-⸻
+
 
 ## Future Improvements
 	•	Add headless browser support
